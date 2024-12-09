@@ -304,7 +304,6 @@ class _HomePageScreenState extends State<HomePageScreen> {
             // Then show the loading dialog
             _showLoadingDialog(context);
 
-            // Proceed with the API call
             final geminiFeatureService = GeminiFeatureService();
             final imageHandler = ImageHandler();
 
